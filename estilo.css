@@ -1,0 +1,153 @@
+body {
+  background-color: #FCE8CA;
+  background-image: url("./fundo.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-attachment: fixed;
+}
+
+a {
+	color: #B04300;
+}
+
+
+
+.logoAplicacao {
+	border-color: #B04300;
+    border-width: thick;
+    border-style: double;
+}
+
+#principal {
+  width:80%;
+  margin:0px;
+  float: right;
+}
+
+#menu{
+  width:15%;
+  height:100%;
+  margin:0px;
+  padding:20px;
+  float:left;
+}
+
+.textodestacado {
+	color: black;
+}
+
+.botaoProcurar {
+	background-image: url("./Imagens/procurar.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	width:41px;
+    height:41px;
+	position: 
+	-ms-transform: translateY(25%);
+   transform: translateY(25%);
+}
+
+.produtoContainer {
+	height: 20%;
+}
+
+.fotoProdutoContainer {
+	height: 90%;
+	width: 15%;
+	margin: auto; 
+	position: relative;
+	float:left;
+	background-color: white;
+	margin-right: 15px;
+}
+
+.fotoProduto {
+    height: 90%;
+    display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.descricaoProdutoContainer {
+	height: 100%;
+	width: 45%;
+	margin: auto; 
+	position: relative;
+	float:left;
+}
+
+.precoProdutoContainer {
+	height: 100%;
+	width: 20%;
+	margin: auto; 
+	float: left;
+}
+
+
+.supermercadoContainer {
+	height: 20%;
+}
+
+.logoSupermercadoContainer {
+	height: 100%;
+	width: 18%;
+	margin: auto; 
+	position: relative;
+	float:left;
+}
+
+.logoSupermercado {
+    height: 90%;
+    display: block;
+	margin-left: auto;
+  	margin-right: auto;
+
+}
+.descricaoSupermercadoContainer {
+	height: 100%;
+	width: 50%;
+	margin: auto; 
+	position: relative;
+	float:left;
+}
+
+#modalFeedback {
+  width: 300px;
+  height: 70px;
+  left: 80%;
+  top: 20%;
+  margin: -75px 0 0 -75px;
+  position: fixed;
+  background-color: #333333;
+  border-color: #333333;
+  border-width: medium;
+  border-style: solid;
+  z-index: 99;
+  display: none;
+  color: white;
+}
+
+#modalFeedback a {
+  color: red;
+  text-decoration:none;
+}
+
+::-webkit-input-placeholder {
+   color: orange;
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-moz-placeholder {
+   color: orange;
+   font: 12px verdana, arial, sans-serif;
+}
+
+::-moz-placeholder {
+   color: orange;  
+   font: 12px verdana, arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: orange;  
+   font: 12px verdana, arial, sans-serif;
+}
